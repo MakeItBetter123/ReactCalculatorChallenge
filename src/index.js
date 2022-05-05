@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import * as math from "./calculator.js";
+import * as Math_ from "./calculator.js";
 
 //Import the add, multiply, subtract and divide functions
 //from the calculator.js file.
@@ -8,10 +8,10 @@ import * as math from "./calculator.js";
 
 ReactDOM.render(
   <ul>
-    <li>{math.add(1, 2)}</li>
-    <li>{math.multiply(2, 3)}</li>
-    <li>{math.subtract(7, 2)}</li>
-    <li>{math.divide(5, 2)}</li>
+    <li>{Math_.add(1, 2)}</li>
+    <li>{Math_.multiply(2, 3)}</li>
+    <li>{Math_.subtract(7, 2)}</li>
+    <li>{Math_.divide(5, 2)}</li>
   </ul>,
   document.getElementById("root")
 );
